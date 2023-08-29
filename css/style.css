@@ -1,0 +1,551 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+html {
+  font-size: 16px;
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Hubballi', cursive;
+  font-size: 1em;
+  text-align: center;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 3.5em;
+  
+}
+
+h2 {
+  font-family: 'Nerko One', cursive;
+  font-size: 3.2em;
+  font-weight: 400;
+  color:#6E07F3 ;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+p {
+  line-height: 14px;
+}
+
+img {
+  width: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 20px auto;
+}
+
+span {
+  font-size: 2.5em;
+  
+}
+
+.about h1 span {
+  
+  color:#6E07F3 ;
+}
+
+.hero-foot {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: -5.9em;
+}
+
+
+  
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   header,
+   footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   
+   header {
+     padding: 16px 0;
+   }
+   
+   header .content-wrapper {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     width: 60%;
+      
+   }
+ 
+   .header-right ul {
+     margin: 2em 0 1.5em 0;
+     text-align: center;
+     font-size: 1.25em;
+     text-transform: lowercase;
+     font-family: 'Nerko One', cursive;
+   }
+ 
+   .header-right li {
+     display: inline;
+     
+   }
+ 
+   .header-right a {
+     display: inline-block;
+     padding: .5em .5em;
+   }
+ 
+   header {
+     padding: 16px 70px;
+   }
+   
+   footer .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 80%;
+     margin: 0 auto 25px auto;
+   }
+ 
+   #avatar,
+   .container {
+     width: 48%; 
+     max-width: 700px;
+     display: flex;
+     align-items: center;
+     position: relative;
+     height: 51vmin;
+     justify-content: flex-start; 
+   }
+
+
+   .about .content-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top:60px;
+    
+  }
+  
+  .left-content {
+    flex: 1; 
+    margin-left: 200px;
+  }
+  
+  .right-content {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-right: 120px;
+  }
+  
+  #avatar {
+    width: 700px; 
+   
+  }
+
+  .statement h1, .statement h2, .about-me {
+    margin: 0;
+    font-family: 'Nerko One', cursive;
+    margin-bottom: 10px;
+
+  }
+
+  .statement h1, .statement h2 {
+    line-height: 1;
+    padding-bottom: 10px;
+    
+  }
+
+  
+  .about-me {
+    font-size: 23px;
+    line-height: 1;
+    text-align: justify;
+  }
+
+  .skills {
+    background-color: #6E07F3;
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+    font-size: 1.8em;
+    height: 25em;
+    padding-top: 2px;
+    
+  }
+
+  .skills h2{
+    color: black ;
+  }
+  
+  #skills {
+    padding-top: 30px;
+  }
+  
+  .container-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-gap: 0; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 6em;
+  }
+
+  
+  
+  .projects__row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 5rem;
+    margin-bottom: 11rem;
+  }
+
+  .projects__row-img {
+    width: 100%;
+    display: block;
+  }
+
+  .projects__row-content-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+    font-family: 'Nerko One', cursive;
+  }
+
+  .projects__row-content-desc {
+    font-size: 1rem;
+    color: #666;
+    max-width: 60rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+  }
+
+  .projects__row-img-cont{
+    width: 650px;
+    margin-left: 320px;
+    
+    
+  }
+
+
+  .projects__row-content{
+    margin-right: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  #projects{
+    font-size: 4em;
+    font-weight: 400;
+
+  }
+
+  
+  .project-link {
+    background: #7843e9;
+    padding: 1em ;
+    font-size: .8em;
+    border-radius: 5px;
+    font-weight: 600;
+    
+  }
+
+  footer h3 {
+    color:#6E07F3;
+    font-size: 4em;
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+  }
+
+ 
+  
+footer .contact-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+footer .social-icons {
+  font-size: 2.5em;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+
+.copyright-wrapper {
+  padding-top:40px;
+  border-top: 1px solid #6E07F3;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
