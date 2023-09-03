@@ -94,8 +94,7 @@ body {
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  
 }
 
 a {
@@ -163,45 +162,48 @@ span {
    header,
    footer {
      display: flex;
-     justify-content: space-between;
+     flex-direction:column;
      align-items: center;
    }
 
    
    header {
-     padding: 16px 0;
+     padding: 0 20px 0 0;
    }
    
+  
+
+  .header-right {
+    margin-left: auto; 
+  }
+
    header .content-wrapper {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-wrap: wrap;
-     width: 60%;
-      
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-columns: 50% 50%;
+     place-items: center;
+     
    }
  
    .header-right ul {
-     margin: 2em 0 1.5em 0;
-     text-align: center;
-     font-size: 1.25em;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     justify-content: center;
      text-transform: lowercase;
      font-family: 'Nerko One', cursive;
+     grid-gap: 20px;
+     padding-right: 20px;
+     
    }
  
    .header-right li {
      display: inline;
+     font-size: 1.5em;
      
    }
  
-   .header-right a {
-     display: inline-block;
-     padding: .5em .5em;
-   }
  
-   header {
-     padding: 16px 70px;
-   }
+   
    
    footer .content-wrapper {
      display: flex;
@@ -232,21 +234,16 @@ span {
   
   .left-content {
     flex: 1; 
-    margin-left: 200px;
+    margin-left: 8em;
   }
   
-  .right-content {
-    flex: 1; 
+  
+  #avatar 
+  .container {
     display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    margin-right: 120px;
+
   }
-  
-  #avatar {
-    width: 700px; 
-   
-  }
+ 
 
   .statement h1, .statement h2, .about-me {
     margin: 0;
@@ -388,6 +385,133 @@ footer .social-icons {
   border-top: 1px solid #6E07F3;
 }
 
+
+
+@media screen and (max-width: 599px) {
+    
+  header .content-wrapper {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-right ul {
+  grid-template-columns: 1fr auto;
+  text-align: center;
+  
+  
+}
+
+.header-right {
+  margin-left: 0; 
+  text-align: center; 
+  
+} 
+
+.header-right li {
+    font-size: 1em; 
+    display: i
+    
+}
+
+.about .content-wrapper {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+
+
+.projects__row {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem; /
+}
+
+.projects__row-img-cont {
+  width: 100%; 
+  margin:auto;
+}
+
+.projects__row-content {
+  margin-right: 0; 
+}
+
+.projects__row-content-title {
+  font-size: 1.5rem; 
+}
+
+.projects__row-content-desc {
+  font-size: 1rem;
+  max-width: 100%; 
+  margin-bottom: 1rem; 
+}
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+/* Tablets (600px - 1023px) */
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  /* Your tablet styles here */
+}
+
+/* Desktops (1024px and above) */
+@media screen and (min-width: 1024px) {
+  /* Your desktop styles here */
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -470,10 +594,11 @@ footer .social-icons {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+   @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
+  
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
