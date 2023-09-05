@@ -87,7 +87,7 @@ html {
 }
 
 body {
-  font-family: 'Hubballi', cursive;
+  
   font-size: 1em;
   text-align: center;
 }
@@ -255,7 +255,7 @@ span {
   .about-me {
     font-size: 23px;
     line-height: 1;
-    text-align: justify;
+    text-align: left;
   }
 
   .bottom {
@@ -293,6 +293,7 @@ span {
 
   .skills p {
     line-height: 25px;
+    color: black;
   }
   
   
@@ -317,12 +318,18 @@ span {
   }
 
   .projects__row-content-desc {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #666;
     max-width: 60rem;
     line-height: 1;
     margin-bottom: 3rem;
   }
+
+  .project-language{ 
+    font-size: 1.2em;
+
+  }
+
 
   .projects__row-img-cont{
     width: 650px;
@@ -350,9 +357,9 @@ span {
   .project-link {
     background: #7843e9;
     padding: 1em ;
-    font-size: .8em;
+    font-size: 1em;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: bold;
     
   }
 
