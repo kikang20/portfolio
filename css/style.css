@@ -178,6 +178,7 @@ span {
 
   .header-right {
     margin-left: auto; 
+    margin-top:3em;
   }
 
   
@@ -288,6 +289,7 @@ span {
     grid-template-rows: repeat(4, 1fr); 
     justify-content: center; 
     align-items: center; 
+    line-height: 5em;
     
   }
 
@@ -300,8 +302,8 @@ span {
   .projects__row {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    grid-gap: 5rem;
-    
+    grid-gap: 7rem;
+    line-height: 1em;
   }
 
   .projects__row-img {
@@ -321,8 +323,10 @@ span {
     font-size: 1.2rem;
     color: #666;
     max-width: 60rem;
-    line-height: 1;
+    text-align: left;
     margin-bottom: 3rem;
+    line-height: 1.5em;
+    margin-left: 1.1em;
   }
 
   .project-language{ 
