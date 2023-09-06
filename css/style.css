@@ -15,7 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  scroll-behavior: smooth; 
+   
 }
 
 /*
@@ -462,7 +462,7 @@ footer .social-icons {
   margin-bottom: 8em;
 }
 
-/*-------------------------------*/
+
  .skills{
   height: auto;
  }
@@ -471,10 +471,9 @@ footer .social-icons {
   grid-template-columns: 1fr; 
   grid-gap: 10px; 
   padding:0 1em ;
-  
-  
-  
 }
+
+
 .box-icon {
 
   margin: 5px;
@@ -483,7 +482,6 @@ footer .social-icons {
 }
 
 
-/*-------------------------------*/
 .projects__row {
   display: flex;
   flex-direction: column; 
@@ -533,6 +531,7 @@ footer .social-icons {
 .bottom {
   margin-top: 3em;
 }
+
 .skills .content-wrapper {
   width: 100%;
 }
@@ -542,7 +541,6 @@ footer .social-icons {
   padding-left: 5em;
 }
 
-/*----------------------------------*/
 
 .projects__row {
   display: flex;
@@ -562,13 +560,6 @@ footer .social-icons {
   margin-top: -10em;
   margin-bottom: 2em;
 }
-
-
-
-  
-
-
-
 
 
 }
