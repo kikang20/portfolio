@@ -336,7 +336,7 @@ span {
 
 
   .projects__row-img-cont{
-    width: 650px;
+    width: 65%;
     margin-left: 320px;
     
     
@@ -403,7 +403,7 @@ footer .social-icons {
    
 
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 768px) {
     
   header .content-wrapper {
     display: grid;
@@ -522,7 +522,7 @@ footer .social-icons {
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1800px) {
 
 .header-right{
   margin:auto;
@@ -533,11 +533,11 @@ footer .social-icons {
 }
 
 .skills .content-wrapper {
-  width: 100%;
+  width: 90%;
 }
 
 .container-icons  {
-  width: 65%;
+  width:
   padding-left: 5em;
 }
 
