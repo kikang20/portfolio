@@ -142,7 +142,7 @@ span {
   
 }
 
-.about h1 span {
+#about h1 span {
   
   color:#6E07F3 ;
 }
@@ -151,7 +151,7 @@ span {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  margin-bottom: -5.9em;
+  margin-bottom: -0.3em;
 }
 
 
@@ -218,12 +218,12 @@ span {
      display: flex;
      align-items: center;
      position: relative;
-     height: 51vmin;
+     
      justify-content: flex-start; 
    }
 
 
-   .about .content-wrapper {
+   #about .content-wrapper {
     display: flex;
     align-items: center;
     padding-top:60px;
@@ -331,6 +331,7 @@ span {
 
   .project-language{ 
     font-size: 1.2em;
+    line-height: normal;
 
   }
 
@@ -431,7 +432,7 @@ footer .social-icons {
     
 }
 
-.about .content-wrapper {
+#about .content-wrapper {
   display: flex;
   justify-content:space-around;
   align-items: center;
@@ -457,6 +458,9 @@ footer .social-icons {
   margin-left: 20px;
 }
 
+.hero-foot {
+  margin-bottom: -8em;
+}
 
 .bottom {
   margin-bottom: 8em;
@@ -475,7 +479,6 @@ footer .social-icons {
 
 
 .box-icon {
-
   margin: 5px;
   padding-bottom: 1em;
   
@@ -487,7 +490,7 @@ footer .social-icons {
   flex-direction: column; 
   align-items: center;
   text-align: center;
-  margin-bottom: 3rem; /
+  margin-bottom: 3rem; 
 }
 
 .projects__row-img-cont {
@@ -536,30 +539,53 @@ footer .social-icons {
   width: 90%;
 }
 
-.container-icons  {
-  width:
-  padding-left: 5em;
-}
-
 
 .projects__row {
   display: flex;
-  flex-direction: column; 
   align-items: center;
   text-align: center;
-  margin-bottom: 3rem; /
+  margin-bottom: 3rem; 
 }
 
 .projects__row-img-cont {
-  width: 80%; 
+  width: 100%; 
   margin:auto;
+  
 }
 
 .projects__row-content {
-  margin-right: 0;
-  margin-top: -10em;
+  margin-right: 1em;
   margin-bottom: 2em;
+  
 }
+
+.projects__row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 7rem;
+  line-height: 1em;
+}
+
+.projects__row-content-desc {
+  margin-bottom: 3em;
+}
+
+
+.projects__row-content-title{
+  margin-bottom:1em;
+  line-height: 1;
+}
+
+.project-language {
+  margin-top: -0.5em;
+}
+
+.project-link {
+  margin-top: -2em;
+}
+
+
+
 
 
 }
