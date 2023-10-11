@@ -243,9 +243,9 @@ span {
  
  
 
-  .statement h1, .statement h2, .about-me {
+  .statement h1, .statement h2  {
     margin: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
 
   }
@@ -261,6 +261,7 @@ span {
     font-size: 23px;
     line-height: 1;
     text-align: left;
+    font-family: 'Nunito', sans-serif;
     
   }
 
@@ -329,7 +330,8 @@ span {
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    font-family: 'Nunito', sans-serif;
+    font-family:  'Nunito', sans-serif;
+    line-height: 30px;
   }
 
   .projects__row-content-desc {
