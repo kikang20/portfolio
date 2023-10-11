@@ -12,18 +12,24 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
+  
+
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
+
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Nerko+One&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:wght@800&display=swap" rel="stylesheet">
+
   <script src="https://kit.fontawesome.com/038bb1671b.js" crossorigin="anonymous"></script>
+
+  
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
@@ -51,7 +57,9 @@
         <div class="left-content">
           <div class="statement">
             <h1>Welcome! My name is <br><span>Ki Kang.</span></h1>
-            <h2> I am a creative <br>front-end developer.</h2>
+            <h2 class="im">I am a creative <br><span class="auto-type"></span></h2>
+       
+            
           </div>
           <p class="about-me">
             I enjoy turning ideas into user-friendly products with my knowledge of responsive web development and
@@ -116,8 +124,8 @@
             <p>Version control</p>
           </div>
           <div class="box-icon">
-            <img src="./img/devtools.svg" alt="devtools icon" width="100" height="100">
-            <p>DevTools</p>
+            <img src="./img/wordpress.svg" alt="devtools icon" width="100" height="100">
+            <p>WordPress</p>
           </div>
           <div class="box-icon">
             <img src="./img/DOM.svg" alt="dom icon" width="100" height="100">
@@ -235,6 +243,17 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed (".auto-type", {
+          strings: ["Front-end Developer."],
+          typeSpeed:100,
+          backSpeed:110,
+          loop:true
+          
+      })
+
+    </script>
   <script src="js/vendor/modernizr-3.12.0.min.js"></script>
   <script src="js/app.js"></script>
 </body>

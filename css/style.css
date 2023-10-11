@@ -109,7 +109,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Nerko One', cursive;
+  font-family: 'Nunito', sans-serif;
   font-size: 3.2em;
   font-weight: 400;
   color:#6E07F3;
@@ -138,11 +138,13 @@ address {
 }
 
 span {
-  font-size: 2.5em;
+  font-size: 2.0em;
+  font-family: 'Poppins', sans-serif;
   
 }
 
-#about h1 span {
+
+ h1 span {
   
   color:#6E07F3 ;
 }
@@ -188,7 +190,7 @@ span {
      grid-template-columns: repeat(4,1fr);
      justify-content: center;
      text-transform: lowercase;
-     font-family: 'Nerko One', cursive;
+     font-family: 'Nunito', sans-serif;
      grid-gap: 20px;
      padding-right: 20px;
      
@@ -227,6 +229,8 @@ span {
     display: flex;
     align-items: center;
     padding-top:60px;
+    word-spacing: 3px;
+    font-weight: 500;
     
   }
   
@@ -241,7 +245,7 @@ span {
 
   .statement h1, .statement h2, .about-me {
     margin: 0;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nunito', sans-serif;
     margin-bottom: 10px;
 
   }
@@ -257,7 +261,16 @@ span {
     font-size: 23px;
     line-height: 1;
     text-align: left;
+    
   }
+
+  #about h2 {
+    font-size: 28px;
+  }
+
+
+
+
 
   .bottom {
     margin-top: 20px;
@@ -266,7 +279,7 @@ span {
 
   .skills {
     background-color: #893BFF;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 1.8em;
     height:auto;
@@ -316,7 +329,7 @@ span {
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nunito', sans-serif;
   }
 
   .projects__row-content-desc {
@@ -373,7 +386,7 @@ span {
   footer h3 {
     color:  black;
     font-size: 4em;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
   }
 
@@ -401,7 +414,27 @@ footer .social-icons {
   padding-top:40px;
   border-top: 1px solid #6E07F3;
 }
-   
+
+.typer::before {
+  content: "Frontend developer";
+  position: absolute;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: animate 4s steps(12) infinite;
+  
+}
+
+@keyframes animate {
+ 
+    40%, 60% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
 
 
 @media screen and (max-width: 768px) {
