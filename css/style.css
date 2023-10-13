@@ -218,20 +218,29 @@ span {
  
    #avatar,
    .container {
-     width: 48%; 
-     max-width: 700px;
+    width: 35%; 
      display: flex;
      align-items: center;
      position: relative;
-     
      justify-content: flex-start; 
+   
+     margin-top: 5em;
+   }
+
+   .imageContainer {
+    border-radius: 50%;
+    height:  300px;
+    width: 65%;
+    margin-bottom: 5em;
+    
+
    }
 
 
    #about .content-wrapper {
     display: flex;
     align-items: center;
-    padding-top:60px;
+    padding-top:150px;
     word-spacing: 3px;
     font-weight: 500;
     
@@ -277,7 +286,7 @@ span {
 
 
   .bottom {
-    margin-top: 20px;
+    margin-top: 20xp;
   }
 
 
@@ -482,15 +491,26 @@ footer .social-icons {
   flex-direction: row-reverse;
   flex-wrap: wrap;
   padding-right: 20px;
+  margin-top: -50px;
 }
 
 #avatar,
   .container {
-    width: 72%;
-    margin-left: 5px;
+    width: 85%;
+  
+  }
+
+ 
+  #avatar {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
     
-    
-    
+  
+  }
+  
+  .bottom {
+    margin-top: -80px;
   }
 
 .left-content {
@@ -568,13 +588,25 @@ footer .social-icons {
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1800px) {
+@media screen and (min-width: 769px) and (max-width: 1800px) {
 
 .header-right{
   margin:auto;
 }
 
-.bottom {
+
+.imageContainer {
+  margin-left: 2em;
+  
+}
+
+
+.hero-foot img {
+  max-width: 600px;
+  width: 550px;
+  margin-left: -7em;
+}
+  
   margin-top: 3em;
 }
 
