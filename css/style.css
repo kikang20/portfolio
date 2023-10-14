@@ -194,8 +194,8 @@ span {
      justify-content: center;
      text-transform: lowercase;
      font-family: 'Nunito', sans-serif;
-     grid-gap: 20px;
-     padding-right: 20px;
+     grid-gap: 25px;
+     padding-right: 1.5em;
      
    }
  
@@ -303,8 +303,16 @@ span {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 1.8em;
-    height:auto;
-    padding-top: 3px;
+    height: auto;
+    padding-top: 1em;
+
+    
+  }
+
+  .skills
+  .content-wrapper {
+    max-width: 90%;
+    
     
     
   }
@@ -313,8 +321,9 @@ span {
     color: black ;
   }
   
-#skills {
-  padding-bottom: 20px;
+  #skills {
+    padding-bottom: 20px;
+    
 }
   
   .container-icons {
@@ -389,7 +398,7 @@ span {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    padding-top: 2em;
   }
 
   #projects{
@@ -520,10 +529,6 @@ footer .social-icons {
     justify-content: center;
     padding-right: 1em;
     
-    
-  
-  
-    
   
   }
   
@@ -554,12 +559,17 @@ footer .social-icons {
   height: auto;
  }
 
+ #skills {
+  font-size: 2em;
+ }
 
 
  .container-icons {
   grid-template-columns: 1fr; 
   grid-gap: 10px; 
   padding:0 1em ;
+  font-size: 20px;
+  
 }
 
 
@@ -569,6 +579,9 @@ footer .social-icons {
   
 }
 
+#projects {
+  font-size: 2.8em;
+}
 
 .projects__row {
   display: flex;
@@ -655,16 +668,20 @@ footer .social-icons {
 
 
   .skills .content-wrapper {
-    width: 90%;
+    width: 80%;
+   
+    
   }
 
+  
 
 
   .projects__row {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    grid-gap: 7rem;
+    grid-gap: 5rem;
     line-height: 1em;
+    margin: 0 40px;
   }
   
   
