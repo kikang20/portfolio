@@ -184,6 +184,7 @@ span {
   .header-right {
     margin-left: auto; 
     margin-top:3em;
+
   }
 
   
@@ -191,19 +192,27 @@ span {
    .header-right ul {
      display: grid;
      grid-template-columns: repeat(4,1fr);
-     justify-content: center;
-     text-transform: lowercase;
      font-family: 'Nunito', sans-serif;
-     grid-gap: 25px;
-     padding-right: 1.5em;
+     grid-gap: 30px;
+     padding-right: 1.7em;
+     font-weight: 500;
      
+    
    }
  
    .header-right li {
      display: inline;
      font-size: 1.5em;
+     color:black;
      
    }
+
+   .header-right ul li a:hover {
+    
+    border-bottom:2px solid  #6E07F3;
+  }
+
+  
  
  
    
