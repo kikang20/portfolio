@@ -200,7 +200,6 @@ span {
      padding-right: 1.7em;
      font-weight: 500;
      
-    
    }
  
    
@@ -231,8 +230,8 @@ span {
    }
 
    .imageContainer {
-    border-radius: 50%;
-    height:  370px;
+    border-radius:50%;
+    height:  390px;
     max-width: 400px;
     margin-bottom: 5em;
     
