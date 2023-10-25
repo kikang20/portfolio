@@ -229,8 +229,8 @@
 
    .imageContainer {
     width: 75%;
-    margin-right: 9em;
-    
+    margin-right: 7em;
+    max-height: 1000px
     
     
    }
@@ -243,13 +243,13 @@
     align-items: center;
     word-spacing: 3px;
     font-weight: 500;
-    justify-content: center;
+    justify-content: space-between;
     margin-left: 7em;
     
   }
   
   .left-content {
-    margin-left: 13em;
+    margin-left: 10em;
     
    
   }
@@ -506,11 +506,7 @@ margin: auto;
 
   }
 
- 
-.imageContainer {
-  margin: 0;
-  padding-left: 0.7em;
-}
+
 
 
 .left-content {
@@ -523,6 +519,9 @@ margin: auto;
   
 }
 
+.imageContainer {
+  padding-left: 0.5em;
+}
 
 
 
@@ -639,7 +638,7 @@ margin: auto;
 
 .imageContainer {
   padding-top: 2em;
-  padding-right: 4em;
+  padding-right: 7em;
 }
 
   .about-me {
@@ -709,15 +708,68 @@ margin: auto;
 @media screen and (min-width: 1029px) {
   #about .content-wrapper {
     margin: auto;
+    
   }
   
   .left-content {
-   width: 50%;
+   width: 70%;
+  
   }
 
   .imageContainer {
     height: 1300px;
+    width: 80%;
   }
+
+
+
+  .projects__row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 7rem;
+    padding-right: 1em;
+  }
+
+
+
+
+  .projects__row-img {
+    
+    
+    
+  }
+
+ 
+
+
+  .projects__row{
+    width: 95%;
+  
+
+    
+    
+    
+  }
+
+
+  .projects__row-content{
+    margin: 0;
+    
+    
+    
+   
+  }
+
+  .projects__row-img-cont{
+    width: 100%;
+    margin: 0;
+  }
+
+  
+
+  
+ 
+  
 }
  
   
