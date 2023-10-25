@@ -229,12 +229,14 @@
 
    .imageContainer {
     width: 75%;
-    margin-left: 4em;
+    margin-right: 9em;
+    
     
     
    }
    
    
+
 
    #about .content-wrapper {
     display: flex;
@@ -242,15 +244,13 @@
     word-spacing: 3px;
     font-weight: 500;
     justify-content: center;
-    margin-left: 1em;
-    
+    margin-left: 7em;
     
   }
   
   .left-content {
-    margin-left: 18em;
-    height: auto;
-    display: block; 
+    margin-left: 13em;
+    
    
   }
   
@@ -281,10 +281,7 @@
     margin: auto;
     
     
-    
   }
-
-
 
 
 
@@ -512,7 +509,7 @@ margin: auto;
  
 .imageContainer {
   margin: 0;
-  padding-left: 0.6em;
+  padding-left: 0.7em;
 }
 
 
@@ -615,13 +612,14 @@ margin: auto;
 
 
 .imageContainer {
-  margin: auto;
-  padding-right: 9em;
-  
+  padding-right: 3.5em;
+ 
 }
 
 #about {
   margin-top: 10em;
+  
+  
 }
 
 #about .content-wrapper {
@@ -633,18 +631,16 @@ margin: auto;
 .left-content {
   margin: auto;
   font-size: 10px;
-  width: 90%;
+  padding-right: 9em;
+  
+  
   
 }
 
- 
-  #avatar {
-    display: flex;
-    justify-content: center;
-    padding-top: 4em;
-   
-    
-  }
+.imageContainer {
+  padding-top: 2em;
+  padding-right: 4em;
+}
 
   .about-me {
     font-size: 2.5em;
@@ -710,6 +706,19 @@ margin: auto;
 
 }
 
+@media screen and (min-width: 1029px) {
+  #about .content-wrapper {
+    margin: auto;
+  }
+  
+  .left-content {
+   width: 50%;
+  }
+
+  .imageContainer {
+    height: 1300px;
+  }
+}
  
   
 
