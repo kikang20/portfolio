@@ -503,6 +503,9 @@ margin: auto;
   .container {
     width: 90%;
     padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    
 
   }
 
@@ -520,7 +523,10 @@ margin: auto;
 }
 
 .imageContainer {
-  padding-left: 0.5em;
+  padding-left: 2em;
+ 
+  
+  
 }
 
 
@@ -730,16 +736,6 @@ margin: auto;
     padding-right: 1em;
   }
 
-
-
-
-  .projects__row-img {
-    
-    
-    
-  }
-
- 
 
 
   .projects__row{
