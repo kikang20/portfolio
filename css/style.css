@@ -293,7 +293,8 @@
     font-size: 1.8em;
     height: auto;
     padding-top: 1em;
-    
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
     
   }
 
