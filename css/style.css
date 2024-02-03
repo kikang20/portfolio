@@ -227,9 +227,21 @@
    .imageContainer {
     width: 75%;
     margin-right: 7em;
-    max-height: 1000px
+    max-height: 1000px;
+    animation: left-right 3s infinite linear;
     
-    
+   }
+
+   @keyframes left-right {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
    }
    
    
